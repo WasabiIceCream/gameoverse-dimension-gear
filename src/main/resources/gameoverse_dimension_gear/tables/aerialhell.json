@@ -1,0 +1,27 @@
+{
+  "_comment": "Aerial Hell, depth 1 (docs/post-end-progression.md). 'from_bonus' is the material's own attack damage bonus in Aerial Hell 0.7.7.9 (AerialHellToolMaterials); each item's base_attack_damage modifier moves by (bonus - from_bonus), keeping per-tool differences. Armor defense is helmet/chestplate/leggings/boots. Unique weapons are left out on purpose.",
+  "namespace": "aerialhell",
+  "tools": {
+    "sky_wood":      {"from_bonus": 0.0, "bonus": 4.0, "durability": 1800, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "stellar_stone": {"from_bonus": 1.0, "bonus": 4.5, "durability": 2600, "speed": 8.5,  "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "magmatic_gel":  {"from_bonus": 0.0, "bonus": 4.5, "durability": 1500, "speed": 11.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "azurite":       {"from_bonus": 0.0, "bonus": 4.5, "durability": 1700, "speed": 12.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "ruby":          {"from_bonus": 2.0, "bonus": 5.5, "durability": 2400, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "obsidian":      {"from_bonus": 3.0, "bonus": 6.0, "durability": 3600, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "lunatic":       {"from_bonus": 4.0, "bonus": 7.0, "durability": 3000, "speed": 11.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "breaker":       {"from_bonus": 5.0, "bonus": 7.5, "durability": 2500, "speed": 10.5, "item_ids": ["aerialhell:stellar_stone_breaker"]},
+    "volucite":      {"from_bonus": 4.5, "bonus": 8.0, "durability": 3200, "speed": 12.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "heavy":         {"from_bonus": 6.0, "bonus": 9.5, "durability": 3200, "speed": 10.0, "items": ["sword", "axe"]},
+    "arsonist":      {"from_bonus": 5.5, "bonus": 9.0, "durability": 4000, "speed": 13.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]}
+  },
+  "armor": {
+    "azurite":      {"durability_multiplier": 33, "defense": [3, 7, 6, 3],  "toughness": 2.5, "knockback_resistance": 0.0},
+    "magmatic_gel": {"durability_multiplier": 33, "defense": [3, 7, 6, 3],  "toughness": 2.5, "knockback_resistance": 0.0},
+    "ruby":         {"durability_multiplier": 37, "defense": [3, 8, 6, 3],  "toughness": 3.0, "knockback_resistance": 0.05},
+    "obsidian":     {"durability_multiplier": 45, "defense": [4, 8, 7, 4],  "toughness": 3.5, "knockback_resistance": 0.1},
+    "shadow":       {"durability_multiplier": 40, "defense": [4, 8, 7, 4],  "toughness": 3.5, "knockback_resistance": 0.0},
+    "lunatic":      {"durability_multiplier": 45, "defense": [4, 9, 7, 4],  "toughness": 4.0, "knockback_resistance": 0.05},
+    "volucite":     {"durability_multiplier": 50, "defense": [5, 9, 8, 5],  "toughness": 4.5, "knockback_resistance": 0.05},
+    "arsonist":     {"durability_multiplier": 60, "defense": [5, 10, 9, 6], "toughness": 5.0, "knockback_resistance": 0.1}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gameoverse_dimension_gear",
+  "version": "${version}",
+  "name": "Gameoverse Dimension Gear",
+  "description": "Rescales other mods' gear (durability, damage, mining speed, armor) from per-dimension tables, so each post-End dimension's gear fits Gameoverse's ladder.",
+  "authors": ["WasabiIceCream"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.gameoverse.dimensiongear.DimensionGear"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25"
+  }
+}
