@@ -1,18 +1,18 @@
 {
-  "_comment": "Aerial Hell, depth 1 (docs/post-end-progression.md). 'from_bonus' is the material's own attack damage bonus in Aerial Hell 0.7.7.9 (AerialHellToolMaterials); each item's base_attack_damage modifier moves by (bonus - from_bonus), keeping per-tool differences. Armor defense is helmet/chestplate/leggings/boots. Unique weapons are left out on purpose.",
+  "_comment": "Aerial Hell, depth 1 (docs/post-end-progression.md). 'from_bonus' is the material's own attack damage bonus in Aerial Hell 0.7.7.9 (AerialHellToolMaterials); each item's base_attack_damage modifier moves by (bonus - from_bonus), keeping per-tool differences. Armor defense is helmet/chestplate/leggings/boots. Spears (added in Aerial Hell 0.7.8) use their material like the other tools. Unique weapons, the Health Boost Spear included, are left out on purpose.",
   "namespace": "aerialhell",
   "tools": {
-    "sky_wood":      {"from_bonus": 0.0, "bonus": 4.0, "durability": 1800, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
-    "stellar_stone": {"from_bonus": 1.0, "bonus": 4.5, "durability": 2600, "speed": 8.5,  "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
-    "magmatic_gel":  {"from_bonus": 0.0, "bonus": 4.5, "durability": 1500, "speed": 11.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
-    "azurite":       {"from_bonus": 0.0, "bonus": 4.5, "durability": 1700, "speed": 12.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
-    "ruby":          {"from_bonus": 2.0, "bonus": 5.5, "durability": 2400, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
-    "obsidian":      {"from_bonus": 3.0, "bonus": 6.0, "durability": 3600, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
-    "lunatic":       {"from_bonus": 4.0, "bonus": 7.0, "durability": 3000, "speed": 11.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "sky_wood":      {"from_bonus": 0.0, "bonus": 4.0, "durability": 1800, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
+    "stellar_stone": {"from_bonus": 1.0, "bonus": 4.5, "durability": 2600, "speed": 8.5,  "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
+    "magmatic_gel":  {"from_bonus": 0.0, "bonus": 4.5, "durability": 1500, "speed": 11.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
+    "azurite":       {"from_bonus": 0.0, "bonus": 4.5, "durability": 1700, "speed": 12.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
+    "ruby":          {"from_bonus": 2.0, "bonus": 5.5, "durability": 2400, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
+    "obsidian":      {"from_bonus": 3.0, "bonus": 6.0, "durability": 3600, "speed": 10.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
+    "lunatic":       {"from_bonus": 4.0, "bonus": 7.0, "durability": 3000, "speed": 11.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
     "breaker":       {"from_bonus": 5.0, "bonus": 7.5, "durability": 2500, "speed": 10.5, "item_ids": ["aerialhell:stellar_stone_breaker"]},
-    "volucite":      {"from_bonus": 4.5, "bonus": 8.0, "durability": 3200, "speed": 12.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]},
+    "volucite":      {"from_bonus": 4.5, "bonus": 8.0, "durability": 3200, "speed": 12.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]},
     "heavy":         {"from_bonus": 6.0, "bonus": 9.5, "durability": 3200, "speed": 10.0, "items": ["sword", "axe"]},
-    "arsonist":      {"from_bonus": 5.5, "bonus": 9.0, "durability": 4000, "speed": 13.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe"]}
+    "arsonist":      {"from_bonus": 5.5, "bonus": 9.0, "durability": 4000, "speed": 13.0, "items": ["sword", "pickaxe", "axe", "shovel", "hoe", "spear"]}
   },
   "armor": {
     "azurite":      {"durability_multiplier": 33, "defense": [3, 7, 6, 3],  "toughness": 2.5, "knockback_resistance": 0.0},

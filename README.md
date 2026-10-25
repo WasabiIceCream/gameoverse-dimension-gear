@@ -9,7 +9,7 @@ damage, mining speed, and armor, toughness and knockback resistance are set thro
 so per-tool differences are kept.
 
 The first table is Aerial Hell (`aerialhell.json`): Sky Wood around netherite and each material after it a big step
-above, leaving its unique weapons as they are. Recheck the table whenever the dimension mod's materials change.
+above, leaving its unique weapons as they are. Since 1.0.1 its spears (Aerial Hell 0.7.8) are rescaled with their material. Recheck the table whenever the dimension mod's materials change.
 
 ## Building
 
